@@ -1,0 +1,12 @@
+{
+    "eslint.alwaysShowStatus": true,
+    "javascript.implicitProjectConfig.checkJs": true,
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "files.eol": "\n",
+    "eslint.options": {
+        "configFile": ".eslintrc.js"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+}

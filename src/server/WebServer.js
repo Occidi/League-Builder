@@ -9,9 +9,9 @@ export default class WebServer {
     start() {
         return new Promise((resolve, reject) => {
             try {
-                this.server = this.app.listen(3000, function () {
+                this.server = this.app.listen(3000, () => {
                     resolve();
-                })
+                });
             } catch (e) {
                 console.error(e);
                 reject(e);
@@ -24,7 +24,7 @@ export default class WebServer {
             try {
                 this.server.close(() => {
                     resolve();
-                })
+                });
             } catch (e) {
                 console.error(e.message);
                 reject(e);
