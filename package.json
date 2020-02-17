@@ -1,0 +1,14 @@
+{
+  "name": "leaguebuilder",
+  "version": "1.0.0",
+  "description": "League builder : used to share popular league of legends items builds using built in Riot Games recommended items system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gwendal Jeanson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
