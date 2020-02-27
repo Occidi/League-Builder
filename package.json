@@ -3,23 +3,8 @@
   "version": "1.0.0",
   "description": "League builder : used to share popular league of legends items builds using built in Riot Games recommended items system",
   "main": "index.js",
-  "scripts": {
-    "clean": "rimraf dist node_modules",
-    "build-client": "cd ./frontend && npm i",
-    "start-client": "cd ./frontend/ && npm start"
-  },
+  "scripts": {},
   "author": "Gwendal Jeanson",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "rimraf": "^3.0.2"
-  },
-  "devDependencies": {
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.18.3",
-    "eslint-plugin-react-hooks": "^1.7.0"
-  }
+  "dependencies": {}
 }
